@@ -1,6 +1,3 @@
-from day_9 import score
-
-
 class QuizBrain:
     def __init__(self, q_list): # Init method
         self.question_number = 0  # Attribute
@@ -26,3 +23,4 @@ class QuizBrain:
 
         print(f"The correct answer was: {correct_answer}.")
         print(f"Your current score is: {self.score} out of {self.question_number} questions.")
+        print("\n")

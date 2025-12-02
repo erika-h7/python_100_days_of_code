@@ -18,3 +18,5 @@ while quiz.still_has_questions(): #if quiz still has questions remaining is True
     quiz.next_question()
 
 
+print("You've completed the Quiz Game")
+print(f"Your final score was: {quiz.score}/{quiz.question_number}")
